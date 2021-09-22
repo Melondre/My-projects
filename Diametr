@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char **argv)
+{
+	int d, L;
+
+	cout << "Diametr: ";
+	cin >> d;
+	const int pi = 3.14;
+
+	L = pi * d;
+
+	cout << "Dlina: " << L << endl;
+	system("pause");
+	return 0;
+}
