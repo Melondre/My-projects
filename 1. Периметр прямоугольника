@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char **argv)
+{
+	int a, b, P;
+
+	cout << "Ctorona a: ";
+	cin >> a;
+	cout << "Ctorona b: ";
+	cin >> b;
+
+	P = 2 * (a + b);
+
+	cout << "Perimetr: " << P << endl;
+	system("pause");
+	return 0;
+}
