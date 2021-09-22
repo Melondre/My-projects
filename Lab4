@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char **argv)
+{
+	int a, b, S;
+
+	cout << "Length: ";
+	cin >> a;
+	cout << "Width: ";
+	cin >> b;
+
+	S = a * b;
+
+	cout << "Square: " << S << endl;
+	system("pause");
+	return 0;
+}
