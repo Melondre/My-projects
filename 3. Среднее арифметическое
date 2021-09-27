@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	int a, b, S;
+
+	cout << "a:";
+	cin >> a;
+	cout << "b:";
+	cin >> b;
+
+	S = (a + b)/2;
+
+	cout << "Srednee arifmet: " << S << endl;
+	system("pause");
+	return 0;
+}
