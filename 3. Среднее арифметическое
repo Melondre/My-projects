@@ -6,14 +6,14 @@ int main(int argc, char** argv)
 {
 	int a, b, S;
 
-	cout << "a:";
+	cout << "Veddite a:";
 	cin >> a;
-	cout << "b:";
+	cout << "Veddite b:";
 	cin >> b;
 
 	S = (a + b)/2;
 
-	cout << "Srednee arifmet: " << S << endl;
+	cout << "Srednee arifmeticheskoe: " << S << endl;
 	system("pause");
 	return 0;
 }
