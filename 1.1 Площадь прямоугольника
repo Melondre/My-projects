@@ -6,14 +6,14 @@ int main(int argc, char **argv)
 {
 	int a, b, S;
 
-	cout << "Length: ";
+	cout << "Veddite dlinu: ";
 	cin >> a;
-	cout << "Width: ";
+	cout << "Veddite shirinu: ";
 	cin >> b;
 
 	S = a * b;
 
-	cout << "Square: " << S << endl;
+	cout << "Ploshad: " << S << endl;
 	system("pause");
 	return 0;
 }
