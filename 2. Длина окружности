@@ -7,13 +7,13 @@ int main()
 	int d;
 	float L, pi = 3.14;
 
-	cout << "Diametr: ";
+	cout << "Veddite diametr: ";
 	cin >> d;
 
 
 	L = pi * d;
 
-	cout << "Dlina: " << L << endl;
+	cout << "Dlina ocruznosti: " << L << endl;
 	system("pause");
 	return 0;
 }
