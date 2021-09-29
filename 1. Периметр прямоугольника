@@ -6,9 +6,9 @@ int main(int argc, char **argv)
 {
 	int a, b, P;
 
-	cout << "Ctorona a: ";
+	cout << "Veddite ctorony a: ";
 	cin >> a;
-	cout << "Ctorona b: ";
+	cout << "Veddite ctorony b: ";
 	cin >> b;
 
 	P = 2 * (a + b);
