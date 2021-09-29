@@ -6,7 +6,10 @@ int main()
 {
 	double a, b;
 
-	cin >> a >> b;
+	cout << "Veddite a: ";
+	cin >> a;
+	cout << "Veddite b: ";
+	cin >> b;
 
 	if (!a || !b) exit(1);
 	a = abs(a);
