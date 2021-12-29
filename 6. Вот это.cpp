@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-	float A, A2, A4, A8;
+	float A, B;
 
 	cout << "Veddite A:";
 	cin >> A;
 
-    A2 = A * A;
-    A4 = A2 * A2;
-    A8 = A4 * A4;
+	B = A * A;
+	B = B * B;
+	B = B * B;
 
-	cout << "Znachenie A8:" << A8 << endl;
+	cout << "Znachenie A8:" << B << endl;
 }
