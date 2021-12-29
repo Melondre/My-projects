@@ -16,8 +16,8 @@ int main()
 	P = A / X;
 	S = Y * P;
 
-	cout << "Cena: " << P << endl;
-	cout << "Stoimost: " << P << endl;
+	cout << "Price: " << P << endl;
+	cout << "Stoimost: " << S << endl;
 	return 0;
 
 }
