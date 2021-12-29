@@ -5,17 +5,16 @@ using namespace std;
 
 int main()
 {
-	float A, A2, A4, A8, A3, A12, A15;
+	float A, AN, AN1;
 
 	cout << "Veddite A:";
 	cin >> A;
 
-	A2 = A * A;
-	A3 = A2 * A;
-	A4 = A2 * A2;
-	A8 = A4 * A4;
-	A12 = A8 * A4;
-	A15 = A12 * A3;
+        AN = A * A;
+        AN1 = AN * A;
+        AN1 = AN1 * AN;
+        AN = AN1 * AN1;
+        AN1 = AN * AN1;
 
-	cout << "Znachenie A:" << A15 << endl;
+	cout << "Znachenie A15:" << AN1 << endl;
 }
