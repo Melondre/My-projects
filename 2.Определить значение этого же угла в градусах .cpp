@@ -1,18 +1,12 @@
-#include<iostream>
+#include <stdio.h>
 
-using namespace std;
-
-int main()
+int main(void)
 {
-	float x, o, P, y;
-	P = 3, 14;
+    float a;
+    printf("a:");
+    scanf_s("%f", &a);
 
-	cout << "Veddite x: ";
-	cin >> x;
+    printf("%f\n", (a * 180) / 3.14);
 
-	o = (x * 180) / P;
-
-	cout << "Otvet: " << o << endl;
-	return 0;
-
+    return 0;
 }
