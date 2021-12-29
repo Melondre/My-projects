@@ -14,5 +14,5 @@ int main()
     A4 = A2 * A2;
     A8 = A4 * A4;
 
-	cout << "Znachenie A:" << A8 << endl;
+	cout << "Znachenie A8:" << A8 << endl;
 }
