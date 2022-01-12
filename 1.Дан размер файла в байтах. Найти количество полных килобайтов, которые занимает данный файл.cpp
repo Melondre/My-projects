@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-
+ 
 int main() {
-	int m, n;
-	cout << "Kol - vo of bite:" << endl;
-	cin >> m;
-
-	n = m / 1024;
-	cout << n << "Kilobite";
+    int b, res;
+    cout << "Byte: ";  cin >> b;
+    res = b / 1024;
+    if (b % 1024 != 0) res++;
+    cout << res << endl;
+    return 0;
 }
